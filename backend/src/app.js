@@ -14,11 +14,11 @@ const app = express();
 // ────────────────────────────────────────────────────────────
 app.use(cors({
     origin: [
-        "http://localhost:5500", 
-        "https://runtrack-deploy-frontend-git-main-michimichi.vercel.app/" 
+        "http://localhost:5500",
+        "https://runtrack-deploy-frontend.vercel.app", 
+        "https://runtrack-deploy-frontend-git-main-michimichi.vercel.app" 
     ]
 }));
-
 app.use(express.json());
 
 // Ruta simple para confirmar que el servidor está vivo
