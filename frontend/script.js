@@ -11,7 +11,7 @@
 // Mientras prueban local, esto se queda así.
 // Cuando el backend ya esté en Railway, cambian este valor
 // por la URL real que Railway les dio (termina en .up.railway.app)
-const API_URL = "http://localhost:3000";
+const API_URL = "https://runtrack-deploy-production.up.railway.app";
 
 const formCarrera = document.getElementById("formCarrera");
 const listaCarreras = document.getElementById("listaCarreras");
