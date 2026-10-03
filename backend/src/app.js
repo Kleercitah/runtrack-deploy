@@ -32,6 +32,6 @@ app.use("/carreras", carrerasRoutes);
 // Railway asigna su propio puerto por variable de entorno.
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     console.log("RunTrack backend corriendo en el puerto " + PORT);
 });
